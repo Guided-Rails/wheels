@@ -7,7 +7,7 @@ image: guidedrails/wheels
 # Deploy to these servers.
 servers:
   web:
-    - 137.184.59.70
+    - 67.207.92.238
   # job:
   #   hosts:
   #     - 192.168.0.1
@@ -85,9 +85,8 @@ builder:
   #   - GITHUB_TOKEN
   #   - RAILS_MASTER_KEY
 # Use a different ssh user than root
-# ssh:
-#   user: app
-
+ssh:
+  user: guidedrails
 # Use accessory services (secrets come from .kamal/secrets).
 # accessories:
 #   db:
